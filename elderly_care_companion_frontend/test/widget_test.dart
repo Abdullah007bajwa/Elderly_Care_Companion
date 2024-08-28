@@ -6,7 +6,7 @@ import 'package:elderly_care_companion/services/gemini_service.dart';
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Create a dummy instance of GeminiService with a placeholder API key
-    final geminiService = GeminiService(apiKey: 'AIzaSyAf4bggM6glD_VDQH7Ul7HsE7UxdEcCj5I');
+    final geminiService = GeminiService(apiKey: '');
 
     // Build our app and trigger a frame.
     await tester.pumpWidget(MyApp(geminiService: geminiService));
