@@ -11,7 +11,7 @@ import 'package:elderly_care_companion/screens/ai_companion_screen.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   
-  final geminiService = GeminiService(apiKey: 'AIzaSyAf4bggM6glD_VDQH7Ul7HsE7UxdEcCj5I');
+  final geminiService = GeminiService(apiKey: 'Your key');
   geminiService.initialize();
   
   runApp(MyApp(geminiService: geminiService));
